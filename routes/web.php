@@ -20,3 +20,5 @@ Route::view('/dashboard','layout.dashboard');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::view('/clientes','clientes.index');
